@@ -1,159 +1,204 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montagu+Slab:wght@300&family=Source+Serif+Pro:ital,wght@1,300&display=swap');
-:root{
-    --primary-color:#9D174D;
-    --dark-green:#10B981;
-    --off-white:#EEF2FF;
-    
+
+:root {
+    --primary-color: #9D174D;
+    --dark-green: #10B981;
+    --off-white: #EEF2FF;
+
 }
-body{
-    background-color:ghostwhite;
+
+body {
+    background-color: ghostwhite;
     font-family: 'Montserrat', sans-serif;
     margin-top: 0px;
     margin-left: 60px;
     margin-right: 60px;
 
 }
-hr{
+
+hr {
     margin: 3rem
 }
-.container{
+
+.container {
     padding: 0.5rem 1rem;
 }
-.container-center{
+
+.container-center {
     max-width: 570px;
     margin: auto;
 }
-.link:hover{
-    color:fuchsia;
+
+.link:hover {
+    color: fuchsia;
 }
-.link{
+
+.link {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    font-size: 1.rem;
+    font-size: 1.5rem;
     font-style: italic;
 }
-.link-primary{
+
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 1.5rem;
     color: antiquewhite;
-    
-    
+
+
 }
 
-.link-secondary{
-  color: var(--primary-color);
-  margin: 6px;
-  border-radius:1.5rem;  
-  border:2px solid var(--primary-color);
+.link-secondary {
+    color: var(--primary-color);
+    margin: 6px;
+    border-radius: 1.5rem;
+    border: 2px solid var(--primary-color);
 }
-.list-non-bulit{
+
+.list-non-bulit {
     list-style: none;
 }
-.list-item-inline{
+
+.list-item-inline {
     display: inline;
     padding-right: 1rem 0.5rem;
 }
-.box{
+
+.box {
     background-color: var(--off-white);
     padding: 2rem;
     margin: 3rem auto;
     text-align: center;
     border-radius: 1rem;
 }
-.navigation{
+
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: .5rem;
     border-bottom-left-radius: 1rem;
 }
-.navigation .link{
-    font-size: 30px;
-}
-.navigation .link{
-    color:white;
+
+.navigation .link {
+    color: white;
     text-decoration: none;
-    
+    font-size: 30px;
+
 }
-.navigation .nav-pills{
+
+.navigation .nav-pills {
     text-align: right;
 }
-.navigation .nav-brand:hover{
+
+.navigation .nav-brand:hover {
     color: var(--dark-green);
 }
-.navigation .nav-brand{
+
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
 
 }
-.navigation .link-active:hover{
+
+.navigation .link-active:hover {
     color: var(--dark-green);
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
-    
+
 }
-header{
+
+header {
     display: block;
 }
 
-.hero{
+p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+h2:hover {
+    color: var(--primary-color);
+}
+
+h2 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+.hero {
     padding: 2rem;
     padding-top: 3rem;
 }
-.hero .hero-image{
+
+.hero .hero-image {
     max-width: 350px;
     margin: auto;
     display: block;
 }
-.hero .hero-heading{
+
+.hero .hero-heading {
     text-align: center;
     padding: 1rem;
-    color:var(--dark-green);
+    color: var(--dark-green);
     font-size: 50px;
 }
-.hero .hero-heading .heading-invot{
+
+.hero .hero-heading .heading-invot {
     color: var(--primary-color);
     font-size: 50px;
 
 }
-.section{
+
+.section {
     padding: 2rem;
 }
-h1:hover{
+
+h1:hover {
     color: var(--primary-color);
 }
-.section h1{
+
+.section h1 {
     text-align: center;
-    
+
 }
-.ow{
+
+.ow {
     background-color: var(--off-white);
     border-radius: 1rem;
 }
-.footer{
+
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
     color: white;
-    border-top-right-radius:1rem;
+    border-top-right-radius: 1rem;
 
 }
-.footer .footer-header:hover{
-    color:aqua;
+
+.footer .footer-header:hover {
+    color: aqua;
 }
-.footer .footer-header{
+
+.footer .footer-header {
     font-weight: bold;
-    font-size:34px;
-    padding-left:2rem;
+    font-size: 34px;
+    padding-left: 2rem;
 
 }
-.footer .link:hover{
+
+.footer .link:hover {
     color: var(--dark-green);
 }
-.footer .link{
+
+.footer .link {
     color: white;
     font-size: 20px;
-    
+
 }
