@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montagu+Slab:wght@300&family=Source+Serif+Pro:ital,wght@1,300&display=swap');
 :root{
-    --primary-color:#831843;
+    --primary-color:#9D174D;
     --dark-green:#10B981;
-    --off-white:#E5E7EB;
+    --off-white:#EEF2FF;
+    
 }
 body{
+    background-color:ghostwhite;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 0px ;
+    margin-top: 0pundraw_static_assets_rpm6 (4)x ;
     margin-left: 60px;
     margin-right: 60px;
 
@@ -18,10 +20,12 @@ hr{
     padding: 0.5rem 1rem;
 }
 .container-center{
-    max-width: 600px;
+    max-width: 570px;
     margin: auto;
 }
-/* links */
+.link:hover{
+    color:fuchsia;
+}
 .link{
     box-sizing: border-box;
     text-decoration: none;
@@ -34,7 +38,9 @@ hr{
     border-radius: 1.5rem;
     color: antiquewhite;
     
+    
 }
+
 .link-secondary{
   color: var(--primary-color);
   margin: 6px;
@@ -51,7 +57,6 @@ hr{
 .box{
     background-color: var(--off-white);
     padding: 2rem;
-    /* padding-top: 0.5rem; */
     margin: 3rem auto;
     text-align: center;
     border-radius: 1rem;
@@ -63,18 +68,31 @@ hr{
     border-bottom-left-radius: 1rem;
 }
 .navigation .link{
+    font-size: 30px;
+}
+.navigation .link{
     color:white;
     text-decoration: none;
+    
 }
 .navigation .nav-pills{
     text-align: right;
 }
+.navigation .nav-brand:hover{
+    color: var(--dark-green);
+}
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navigation .link-active:hover{
+    color: var(--dark-green);
 }
 .navigation .link-active{
     font-weight: bold;
+    
 }
 header{
     display: block;
@@ -98,9 +116,13 @@ header{
 .hero .hero-heading .heading-invot{
     color: var(--primary-color);
     font-size: 50px;
+
 }
 .section{
     padding: 2rem;
+}
+h1:hover{
+    color: var(--primary-color);
 }
 .section h1{
     text-align: center;
@@ -118,13 +140,20 @@ header{
     border-top-right-radius:1rem;
 
 }
+.footer .footer-header:hover{
+    color:aqua;
+}
 .footer .footer-header{
     font-weight: bold;
-    font-size:35px;
-    padding-right: 2rem;
-    text-decoration: underline;
+    font-size:34px;
+    padding-left:2rem;
 
+}
+.footer .link:hover{
+    color: var(--dark-green);
 }
 .footer .link{
     color: white;
+    font-size: 20px;
+    
 }
