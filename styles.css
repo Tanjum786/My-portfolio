@@ -6,7 +6,9 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 50px;
+    margin-top: 0px ;
+    margin-left: 60px;
+    margin-right: 60px;
 
 }
 hr{
@@ -57,7 +59,7 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: .5rem;
     border-bottom-left-radius: 1rem;
 }
 .navigation .link{
@@ -74,8 +76,13 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
+header{
+    display: block;
+}
+
 .hero{
-    padding-top: 1rem;
+    padding: 2rem;
+    padding-top: 3rem;
 }
 .hero .hero-image{
     max-width: 350px;
@@ -105,7 +112,7 @@ hr{
 }
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     text-align: center;
     color: white;
     border-top-right-radius:1rem;
