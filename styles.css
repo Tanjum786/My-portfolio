@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montagu+Slab:wght@300&family=Source+Serif+Pro:ital,wght@1,300&display=swap');
 :root {
-    --primary-color: #312E81;
+    --primary-color:#1E40AF;
     --dark-green: #10B981;
     --off-white:#DBEAFE;
 
@@ -10,8 +10,8 @@ body {
     background-color: ghostwhite;
     font-family: 'Montserrat', sans-serif;
     margin-top: 0px ;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
     width: 85%;
     max-width: 100%;
 
@@ -30,16 +30,11 @@ hr {
     margin: auto;
 }
 
-.link:hover {
-    color: fuchsia;
-}
-
 .link {
+    text-align: center;
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    font-size: 1.5rem;
-    font-style: italic;
 }
 
 .link-primary {
@@ -55,11 +50,11 @@ hr {
 
 .link-secondary {
     max-width: 140px;
-  padding: 0.6rem 1.2rem;
-  background-color: var(--primary-color);
-  color: #fff;
-  margin: 2rem 0.5rem;
-  border-radius: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin:1.5rem auto;
+    border-radius: 1rem;
 
 }
 
@@ -74,8 +69,8 @@ hr {
 
 .box {
     background-color: var(--off-white);
-    padding: 2rem;
-    margin: 3rem auto;
+    padding: 2rem ;
+    margin: 2rem auto;
     text-align: center;
     border-radius: 1rem;
 }
@@ -83,15 +78,15 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .link {
     color: white;
     text-decoration: none;
-    font-size: 30px;
-
+    background:lightsteelblue;
+    border-radius: 5px;
 }
 
 .navigation .nav-pills {
@@ -100,11 +95,12 @@ hr {
 
 .navigation .nav-brand:hover {
     color: var(--dark-green);
+    
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -135,14 +131,14 @@ h2:hover {
 }
 
 h2 {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     text-align: center;
 }
 
 .hero {
-    padding: 2rem;
-    padding-top: 3rem;
+    padding: 1rem;
+    padding-top: 1rem;
 }
 
 .hero .hero-image {
@@ -155,17 +151,17 @@ h2 {
     text-align: center;
     padding: 1rem;
     color: var(--dark-green);
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .hero .hero-heading .heading-invot {
     color: var(--primary-color);
-    font-size: 50px;
+    font-size: 30px;
 
 }
 
 .section {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 h1:hover {
@@ -178,36 +174,29 @@ h1:hover {
 }
 
 .ow {
+    margin-top: auto;
     background-color: var(--off-white);
     border-radius: 1rem;
 }
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    padding: 0.5rem 0rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
 
 }
-
-.footer .footer-header:hover {
-    color: aqua;
-}
-
 .footer .footer-header {
     font-weight: bold;
-    font-size: 40px;
-    padding-left: 2rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    padding-left: 1rem;
 
 }
-
-.footer .link:hover {
-    color: var(--dark-green);
-}
-
 .footer .link {
-    color: white;
-    font-size: 30px;
+    color:black;
+    background: #DBEAFE;
+    border-radius: 5px;
 
 }
