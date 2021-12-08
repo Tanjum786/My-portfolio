@@ -69,7 +69,9 @@ hr {
 
 .box {
     background-color: var(--off-white);
-    padding: 2rem ;
+    padding: 1.5rem ;
+    padding-top: 0.5rem;
+    margin-bottom: 0.5;
     margin: 2rem auto;
     text-align: center;
     border-radius: 1rem;
@@ -101,7 +103,6 @@ hr {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -163,13 +164,17 @@ h2 {
 .section {
     padding: 1rem;
 }
-
+h1{
+    text-align: center;
+    font-size: 25px;
+}
 h1:hover {
     color: var(--primary-color);
 }
 
 .section h1 {
     text-align: center;
+    color: var(--primary-color);
 
 }
 
