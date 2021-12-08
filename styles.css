@@ -120,6 +120,7 @@ hr {
 
 header {
     display: block;
+    margin: auto;
 }
 
 p {
