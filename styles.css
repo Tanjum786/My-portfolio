@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montagu+Slab:wght@300&family=Source+Serif+Pro:ital,wght@1,300&display=swap');
-
 :root {
-    --primary-color: #9D174D;
+    --primary-color: #312E81;
     --dark-green: #10B981;
     --off-white:#DBEAFE;
 
@@ -10,9 +9,11 @@
 body {
     background-color: ghostwhite;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 0px;
+    margin-top: 0px ;
     margin-left: 60px;
     margin-right: 60px;
+    width: 85%;
+    max-width: 100%;
 
 }
 
@@ -42,18 +43,24 @@ hr {
 }
 
 .link-primary {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
-    border-radius: 1.5rem;
-    color: antiquewhite;
+    color: #fff;
+    margin: 1.5rem auto;
+    border-radius: 1rem;
 
 
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    margin: 6px;
-    border-radius: 1.5rem;
-    border: 2px solid var(--primary-color);
+    max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin: 2rem 0.5rem;
+  border-radius: 1rem;
+
 }
 
 .list-non-bulit {
@@ -189,7 +196,7 @@ h1:hover {
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: 34px;
+    font-size: 40px;
     padding-left: 2rem;
 
 }
@@ -200,6 +207,6 @@ h1:hover {
 
 .footer .link {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 
 }
