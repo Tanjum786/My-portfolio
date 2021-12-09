@@ -83,7 +83,7 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: rgb(8, 8, 8);
     text-decoration: none;
     background:lightsteelblue;
     border-radius: 5px;
