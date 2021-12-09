@@ -35,26 +35,24 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin: 0.1rem;
 }
-
 .link-primary {
     max-width: 140px;
     padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
-    color: #fff;
+    color:wheat;
     margin: 1.5rem auto;
     border-radius: 1rem;
-
-
+    border: 0.1rem solid var(--primary-color);
 }
-
 .link-secondary {
     max-width: 140px;
     padding: 0.6rem 1.2rem;
-    background-color: var(--primary-color);
-    color: #fff;
+    color:var(--primary-color);
     margin:1.5rem auto;
     border-radius: 1rem;
+    border: 0.1rem solid var(--primary-color);
 
 }
 
@@ -107,11 +105,12 @@ hr {
 }
 
 .navigation .link-active:hover {
-    color: var(--dark-green);
+    background-color: var(--dark-green);
 }
 
 .navigation .link-active {
     font-weight: bold;
+    color: black    ;
 
 }
 
@@ -143,7 +142,7 @@ h2 {
 }
 
 .hero .hero-image {
-    max-width: 550px;
+    max-width: 500px;
     margin: auto;
     display: block;
 }
@@ -198,6 +197,9 @@ h1:hover {
     font-size: 20px;
     padding-left: 1rem;
 
+}
+.footer .link:hover{
+     background-color:blueviolet;
 }
 .footer .link {
     color:black;
