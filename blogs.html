@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs | kamiyabi</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8ddd15368f.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <nav class="navigation container">
-        <div class="nav-brand">Tanjum Kadakol</div>
+    <nav class="navigation">
+        <a class="profileName" href="/">Tanjum Kadakol</a>
         <ul class="list-non-bulit nav-pills">
             <li class="list-item-inline">
-                <a class="link " href="/">Home</a>
+                <a class="link" href="/">Home</a>
             </li>
             <li class="list-item-inline">
                 <a class="link" href="/projects.html">Projects</a>
@@ -22,59 +24,84 @@
             <li class="list-item-inline">
                 <a class="link link-active" href="/blogs.html">Blogs</a>
             </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://drive.google.com/file/d/1h0NWE9vlAnJEjWZsS_lLal_IejMO2LL_/view"
+                    target="_blank">Resume</a>
+            </li>
+
         </ul>
     </nav>
 
     <header class="hero">
         <img class="hero-image" src="images/blog.svg" alt="image">
-
-        <h1 class="hero-heading"> Read My <span class="heading-invot">Blogs</span> </h1>
+        <h1 class="hero-heading"> Read My Technical <span class="heading-invot">Blogs</span> </h1>
     </header>
-    <center>
 
-        <ul class="list-non-bulit nav-pills">
+    <ul class="list-non-bulit nav-pills">
+        <div class="section box ow">
             <li class="list-item-inline ">
                 <h1>What is the use of learning JavaScript?</h1>
-                <small>December 2021</small>
+                <small class="center-text">December 2021</small>
                 <p>
-                    JavaScript is interprted,compiled programming language and it is also know as Scripting language for web pages
-                    JavaScript is a text based programming language used both on the client and server side allow us to make web pages more interactive.
+                    JavaScript is interprted,compiled programming language and it is also know as Scripting language for
+                    web pages
+                    JavaScript is a text based programming language used both on the client and server side allow us to
+                    make web pages more interactive.
 
                 </p>
-                <br>
-                <a class="link link-primary" href="https://tanjum.hashnode.dev/javascript">Read More</a>
+                <div class="projectlinks">
+                    <a class="link link-secondary" target="_blank" href="https://tanjum.hashnode.dev/javascript">Read
+                        More</a>
+                </div>
             </li>
-            <br>
-            <div class="box">
-                <ul class="list-non-bulit nav-pills">
-                    <li class="list-item-inline ">
-                        <h1>Vidya Poshak</h1>
-                        <h4>Poverty should not be a barrier for Education</h4>
-                        <small>December 2021</small>
-                        <p>
-                            Vidya Poshak, India is a registered Citizen Sector Organization (NGO), established in 2001, working towards empowering the impoverished, meritorious student community to pursue their post 10 th education, increase their employability through skill enhancement and transforming them into contributing citizens.
-                        </p>
-                        <br>
-                        <a class="link link-primary"
-                            href="/blogvp.html">Read More</a>
-                    </li>
-            </div>
-
-        </ul>
-    </center>
-    <br>
-    <br>
+        </div>
+        <div class="section box">
+            <li class="list-item-inline ">
+                <h1>
+                    How do Array Methods make life easier?
+                </h1>
+                <small class="center-text">July 2022</small>
+                <p>
+                    An Array is an object that can store multiple values at once.JavaScript arrays are resizable and
+                    they can contain a mix of different data types. the array is a primitive data type. the element of
+                    the array accessible by using an index. Index starts from 0.
+                </p>
+                <div class="projectlinks">
+                    <a class="link link-primary" target="_blank" href="https://tanjum.hashnode.dev/array-methods">Read
+                        More</a>
+                </div>
+            </li>
+        </div>
+        <div class="section box ow">
+            <li class="list-item-inline ">
+                <h1>Semantic HTML Why we should use it
+                </h1>
+                <small class="center-text">July 2022</small>
+                <p>
+                    In programming Semantic means a piece of Code. Semantic HTML code that uses HTML tags to effectively
+                    describe the purpose of page elements. Semantic HTML code communicates the meaning of elements which
+                    For Example What purpose or role does that HTML element have.
+                </p>
+                <div class="projectlinks">
+                    <a class="link link-secondary" target="_blank" href="https://tanjum.hashnode.dev/javascript">Read
+                        More</a>
+                </div>
+            </li>
+        </div>
+    </ul>
     <footer class="footer">
-        <div class="footer-header">Social Media presence</div>
         <ul class="social-link list-non-bulit">
             <li class="list-item-inline">
-                <a class="link" href="https://github.com/Tanjum786">Github</a>
+                <a class="link" href="https://github.com/Tanjum786" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="https://www.linkedin.com/in/tanjum-kadakol-665a69225/">Linkdin</a>
+                <a class="link" href="https://www.linkedin.com/in/tanjum-kadakol-665a69225/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="https://twitter.com/KadakolTanjum">Twitter</a>
+                <a class="link" href="https://twitter.com/KadakolTanjum" target="_blank"><i
+                        class="fa-brands fa-square-twitter"></i></a>
             </li>
         </ul>
     </footer>
