@@ -1,5 +1,5 @@
 # portfolio-neog
-This is my portfolio Here i have mentioned my projects and blogs
+This is my portfolio Here i have mentioned my projects ,blogs and contact detailes
 
  ## Tech-stack used : 
  - HTML 
