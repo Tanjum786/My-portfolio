@@ -1,9 +1,8 @@
 # portfolio-neog
-This is my first portfolio
-Here i created my portfolio
+This is my portfolio Here i have mentioned my projects and blogs
 
-*with the help of:
-1.HTML
-2.CSS
- I have added here my projects too
+ ## Tech-stack used : 
+ - HTML 
+ - CSS
+ 
  
